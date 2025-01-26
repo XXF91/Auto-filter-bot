@@ -72,11 +72,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Antiflix_d')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/room_207x')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/X_XF8")
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Otakukingcey1')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/AntiFlix_A')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Otakukingcey1")
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/room_207x')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/room_207x')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/room_207x")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/X_XF8")
 
 # Bot settings
@@ -113,13 +113,13 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '141481999001')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002491166640")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002166837426")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://t.me/+6vLjd3K1RgUzY2Q8")
+URL = environ.get("URL", "https://t.me/room_207x")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
